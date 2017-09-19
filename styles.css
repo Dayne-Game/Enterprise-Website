@@ -1,0 +1,192 @@
+html,
+body,
+{
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    margin: 0px auto;
+    padding: 0px;
+}
+
+#youtubeheader {
+    width: 1024px;
+    height: 200px;
+}
+
+#banner {
+    margin-top: auto;
+    top: auto;
+    margin: auto;
+    right: 0px;
+    width: 95%;
+    height: 200px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+body {
+    background-image: url("images/background.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+h1 {
+    color: black;
+    font-size: 24pt;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+font {
+    font-size: 10pt;
+}
+
+h3 {
+    font-size: 12pt;
+    color: black;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    color: black;
+    font-size: 18pt;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    color: black;
+    font-size: 13pt;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.page {
+    width: 90%;
+    background: White;
+    border: 1px solid black;
+    margin-left: 10% auto;
+    margin-right: 10% auto;
+    bottom: 10px;
+}
+
+.container {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
+    margin-top: -4px;
+    position: center;
+    margin-left: 36px;
+    margin-right: 45px;
+}
+
+.container a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+/* Content Dropdown */
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+}
+
+.container a:hover,
+.dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.Aboutlink ul {
+    list-style-type: none;
+}
+
+.active {
+    background-color: #333;
+}
+
+.arrow {
+    font-size: x-small;
+    padding-left: 5px;
+}
+
+.active1 {
+    font-size: large;
+}
+
+.footer {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #333;
+    text-align: center;
+    width: 93%;
+    top: auto;
+}
+
+.footer p {
+    color: white;
+}
+
+.footer h1 {
+    color: white;
+}
+
+.footer h2 {
+    color: white;
+}
